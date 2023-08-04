@@ -20,8 +20,8 @@ function buildPrefsWidget() {
 
 
 const MyPrefsWidget = new GObject.Class({
-	Name: 'show-desktop-applet-prefs.Widget',
-	GTypeName: 'show-desktop-applet-prefs_Widget',
+	Name: 'show-desktop-icon-prefs.Widget',
+	GTypeName: 'show-desktop-icon-prefs_Widget',
 	Extends: Gtk.ScrolledWindow,
 
 	_init: function (params) {
